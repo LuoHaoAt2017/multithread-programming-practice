@@ -12,6 +12,8 @@ namespace ProductStore
 			this.SetupDataGridView();
 			this.SetupLayout();
 
+			Thread.CurrentThread.Name = "Main";
+
 			Thread thread1 = new Thread(() => this.FetchProductList("food"));
 			thread1.Name = "FetchProductList";
 			thread1.Start();
