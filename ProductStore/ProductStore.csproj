@@ -23,6 +23,7 @@
     <Folder Include="Configurations\" />
     <Folder Include="Helpers\" />
     <Folder Include="Common\" />
+    <Folder Include="Documents\" />
   </ItemGroup>
 
 </Project>
