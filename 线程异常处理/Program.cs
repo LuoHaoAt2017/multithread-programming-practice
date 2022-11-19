@@ -34,6 +34,5 @@ public class Program
 		{
 			Console.WriteLine("在生产环境的程序中，所有线程的入口方法处都应该有一个异常处理器。");
 		}
-
 	}
 }
